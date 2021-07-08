@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             let login = loginTextField.text,
             let password = passwordTextField.text
         else {
-            print("Login or password equal nil!")
+            print("Login or password equals nil!")
             return
         }
         
