@@ -56,15 +56,39 @@
 		D0EDB20626960C1A001FCC56 /* VKAppGB */ = {
 			isa = PBXGroup;
 			children = (
-				D0EDB20726960C1A001FCC56 /* AppDelegate.swift */,
-				D0EDB20926960C1A001FCC56 /* SceneDelegate.swift */,
+				D0EDB21B26960C40001FCC56 /* AppDelegate */,
 				D0EDB20B26960C1A001FCC56 /* ViewController.swift */,
 				D0EDB20D26960C1A001FCC56 /* Main.storyboard */,
-				D0EDB21026960C1C001FCC56 /* Assets.xcassets */,
-				D0EDB21226960C1C001FCC56 /* LaunchScreen.storyboard */,
-				D0EDB21526960C1C001FCC56 /* Info.plist */,
+				D0EDB21C26960C5A001FCC56 /* Resourses */,
+				D0EDB21D26960C6B001FCC56 /* Configuration */,
 			);
 			path = VKAppGB;
+			sourceTree = "<group>";
+		};
+		D0EDB21B26960C40001FCC56 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDB20726960C1A001FCC56 /* AppDelegate.swift */,
+				D0EDB20926960C1A001FCC56 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D0EDB21C26960C5A001FCC56 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDB21026960C1C001FCC56 /* Assets.xcassets */,
+				D0EDB21226960C1C001FCC56 /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		D0EDB21D26960C6B001FCC56 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDB21526960C1C001FCC56 /* Info.plist */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VKAppGB/Info.plist;
+				INFOPLIST_FILE = VKAppGB/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VKAppGB/Info.plist;
+				INFOPLIST_FILE = VKAppGB/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
