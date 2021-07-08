@@ -48,9 +48,9 @@ class ViewController: UIViewController {
         }
         
         if login == "admin" && password == "admin" {
-            print("Успешная авторизация!")
+            print("Успешная авторизация")
         } else {
-            print("Неудачная авторизация!")
+            print("Неудачная авторизация")
         }
     }
     
